@@ -1,0 +1,20 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  .page-item {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 3px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .active {
+    background-color: royalblue;
+    color: white;
+  }
+}

@@ -8,8 +8,10 @@ header {
   margin: 0 auto;
   text-align: center;
   background-color: #b4eafb;
-  color: white;
   padding: 20px 0;
+  a {
+    color: white;
+  }
   p {
     font-size: 30px;
     font-weight: bolder;

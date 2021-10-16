@@ -1,18 +1,8 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { getNews } from "../../../service/service";
-import Header from "../../header/header";
 import "../../sass/firstPage/firstPage.css";
 
+// Page for choose category of news
 function FirstPage() {
-  /* const [dataNews, setDataNews] = useState([]);
-
-  useEffect(() => {
-    getNews(category).then((data) => {
-      setDataNews(data);
-    });
-  }, []); */
-
   return (
     <main>
       <div className="container">

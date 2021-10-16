@@ -8,4 +8,9 @@
   width: 30%;
   font-size: 18px;
 }
+
+.searchBox .sub {
+  width: 15%;
+  margin-left: 5px;
+}
 /*# sourceMappingURL=searchBar.css.map */

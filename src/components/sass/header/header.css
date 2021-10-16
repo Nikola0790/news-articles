@@ -10,8 +10,11 @@ header {
   margin: 0 auto;
   text-align: center;
   background-color: #b4eafb;
-  color: white;
   padding: 20px 0;
+}
+
+header a {
+  color: white;
 }
 
 header p {
