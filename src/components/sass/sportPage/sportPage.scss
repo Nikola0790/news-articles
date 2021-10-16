@@ -1,0 +1,15 @@
+.container_news {
+  width: 60%;
+  margin: 0 auto;
+}
+.container_for_all_articles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-auto-rows: 350px;
+
+  margin: 0 auto;
+  /* padding: 10px; */
+  grid-column-gap: 1.33%;
+  grid-row-gap: 20px;
+}

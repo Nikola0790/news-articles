@@ -1,0 +1,35 @@
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 200px; /* find a way to center in the middle page */
+  a {
+    width: 47%;
+    text-decoration: none;
+  }
+  .box {
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px;
+  }
+  .box_tec {
+    background-image: url("../../../img/img_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .box_sport {
+    background-image: url("../../../img/sports.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .box p {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  }
+}

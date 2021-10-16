@@ -1,0 +1,50 @@
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 200px;
+  /* find a way to center in the middle page */
+}
+
+.container a {
+  width: 47%;
+  text-decoration: none;
+}
+
+.container .box {
+  width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 100px;
+}
+
+.container .box_tec {
+  background-image: url("../../../img/img_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .box_sport {
+  background-image: url("../../../img/sports.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .box p {
+  font-size: 40px;
+  color: black;
+}
+/*# sourceMappingURL=firstPage.css.map */

@@ -1,0 +1,108 @@
+/* Config */
+:root {
+  --sk-size: 200px;
+  --sk-color: #025aac;
+}
+
+/* Utility class for centering */
+.sk-center {
+  margin: auto;
+}
+
+.switch {
+  margin: 0px auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sk-grid {
+  width: var(--sk-size);
+  height: var(--sk-size);
+  margin: 20% auto 0 auto;
+  /* Cube positions
+       * 1 2 3
+       * 4 5 6
+       * 7 8 9
+       */
+}
+
+.sk-grid-cube {
+  width: 33.33%;
+  height: 33.33%;
+  background-color: var(--sk-color);
+  float: left;
+  -webkit-animation: sk-grid 1.3s infinite ease-in-out;
+          animation: sk-grid 1.3s infinite ease-in-out;
+}
+
+.sk-grid-cube:nth-child(1) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.sk-grid-cube:nth-child(2) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.sk-grid-cube:nth-child(3) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.sk-grid-cube:nth-child(4) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.sk-grid-cube:nth-child(5) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.sk-grid-cube:nth-child(6) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.sk-grid-cube:nth-child(7) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.sk-grid-cube:nth-child(8) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.sk-grid-cube:nth-child(9) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-grid {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
+
+@keyframes sk-grid {
+  0%,
+  70%,
+  100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  }
+}
+/*# sourceMappingURL=loader.css.map */
