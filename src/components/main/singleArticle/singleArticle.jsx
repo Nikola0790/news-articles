@@ -1,8 +1,9 @@
 import React from "react";
 import "../../sass/singleArticle/singleArticle.css";
 import defaultImg from "../../../img/profile_placeholder.gif";
+
 const SingleArticle = ({ data }) => {
-  let day = new Date(data.published_at).getDay();
+  let day = new Date(data.published_at).getDate();
   let month = new Date(data.published_at).getMonth() + 1;
   let year = new Date(data.published_at).getFullYear();
 

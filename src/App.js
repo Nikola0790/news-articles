@@ -13,8 +13,8 @@ import Header from "./components/header/header";
 function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/mainPage" component={FirstPage} />
           <Route exact path="/technology/:category" component={Technology} />
