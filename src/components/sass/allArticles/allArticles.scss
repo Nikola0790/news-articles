@@ -16,4 +16,10 @@
 .searchAndPag {
   display: flex;
   flex-direction: row;
+  button {
+    width: 10%;
+    height: 50px;
+    margin: auto 0 auto 5%;
+    cursor: pointer;
+  }
 }
