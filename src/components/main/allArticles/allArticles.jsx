@@ -53,8 +53,8 @@ function AllArticles({ categ }) {
       </div>
       <div className="container_for_all_articles">
         {/* send data news to single article */}
-        {dataNews.data.map((item) => {
-          return <SingleArticle data={item} />;
+        {dataNews.data.map((item, index) => {
+          return <SingleArticle data={item} key={index} />;
         })}
       </div>
     </div>

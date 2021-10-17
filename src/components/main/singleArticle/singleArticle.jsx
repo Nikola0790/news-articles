@@ -10,7 +10,7 @@ const SingleArticle = ({ data }) => {
   if (data.image === null) {
     return (
       <div className="single_article">
-        <img src={defaultImg} alt="image" />
+        <img src={defaultImg} alt="pic" />
         <div className="article_data">
           <div className="descrip">
             <h5>{data.title}</h5>
@@ -34,7 +34,7 @@ const SingleArticle = ({ data }) => {
 
   return (
     <div className="single_article">
-      <img src={data.image} alt="image" />
+      <img src={data.image} alt="pic" />
       <div className="article_data">
         <div className="descrip">
           <h5>{data.title}</h5>
